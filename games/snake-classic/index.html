@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <section class="panel" aria-label="Snake game">
+      <header class="panel__header">
+        <div>
+          <p class="eyebrow">Classic Snake</p>
+          <h1>Snake</h1>
+        </div>
+        <div class="status">
+          <p>Score</p>
+          <strong id="score">0</strong>
+        </div>
+      </header>
+
+      <div class="hud">
+        <p id="message" class="message">Press any arrow key or WASD to start.</p>
+        <div class="actions">
+          <button id="pause-button" type="button">Pause</button>
+          <button id="restart-button" type="button">Restart</button>
+        </div>
+      </div>
+
+      <div
+        id="board"
+        class="board"
+        role="grid"
+        aria-label="Snake board"
+        aria-live="polite"
+      ></div>
+
+      <section class="controls" aria-label="Touch controls">
+        <button class="control control--up" type="button" data-direction="up" aria-label="Move up">&uarr;</button>
+        <button class="control control--left" type="button" data-direction="left" aria-label="Move left">&larr;</button>
+        <button class="control control--down" type="button" data-direction="down" aria-label="Move down">&darr;</button>
+        <button class="control control--right" type="button" data-direction="right" aria-label="Move right">&rarr;</button>
+      </section>
+    </section>
+  </main>
+
+  <script src="snake-logic.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
