@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Half Shift placeholder screenshot</title>
+  <desc id="desc">Dark racing game placeholder image with blue accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220" />
+      <stop offset="55%" stop-color="#0a0d12" />
+      <stop offset="100%" stop-color="#050608" />
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2330" />
+      <stop offset="100%" stop-color="#090c12" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#79a8ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#79a8ff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)" />
+  <circle cx="220" cy="90" r="220" fill="#79a8ff" opacity="0.14" />
+  <circle cx="1110" cy="620" r="260" fill="#79a8ff" opacity="0.08" />
+  <path d="M420 0h440l180 720H240L420 0Z" fill="url(#road)" />
+  <path d="M602 0h76l18 720h-112l18-720Z" fill="#d7e5ff" opacity="0.28" />
+  <path d="M0 520C180 470 250 420 360 350c75-48 142-73 280-66 125 6 195 25 294 92 87 58 180 120 346 164V720H0V520Z" fill="#0f151d" />
+  <path d="M610 480h210l-110 90H500l110-90Z" fill="#111826" stroke="#79a8ff" stroke-opacity="0.45" />
+  <path d="M530 530h340l-74 76H456l74-76Z" fill="url(#glow)" opacity="0.85" />
+  <rect x="72" y="72" width="284" height="108" rx="18" fill="#0a1018" fill-opacity="0.78" stroke="#79a8ff" stroke-opacity="0.22" />
+  <text x="108" y="126" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="44" font-weight="700">HALF SHIFT</text>
+  <text x="108" y="158" fill="#9ba8b8" font-family="Arial, sans-serif" font-size="20" letter-spacing="3">PLACEHOLDER SCREENSHOT</text>
+</svg>

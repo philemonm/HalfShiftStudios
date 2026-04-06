@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Upward placeholder screenshot</title>
+  <desc id="desc">Dark puzzle platformer placeholder image with ascending platforms.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#050608" />
+      <stop offset="100%" stop-color="#0c1420" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)" />
+  <circle cx="250" cy="560" r="250" fill="#79a8ff" opacity="0.08" />
+  <circle cx="980" cy="140" r="180" fill="#79a8ff" opacity="0.12" />
+  <path d="M180 600h220v34H180zM370 494h220v34H370zM560 388h220v34H560zM750 282h220v34H750zM940 176h160v34H940z" fill="#111826" stroke="#79a8ff" stroke-opacity="0.35" />
+  <circle cx="315" cy="564" r="22" fill="#f4f7fb" />
+  <path d="M310 544l52-58 40 14 82-82 36 16 104-104 42 18 99-100" fill="none" stroke="#79a8ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="72" y="72" width="270" height="108" rx="18" fill="#0a1018" fill-opacity="0.78" stroke="#79a8ff" stroke-opacity="0.22" />
+  <text x="108" y="126" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="44" font-weight="700">UPWARD</text>
+  <text x="108" y="158" fill="#9ba8b8" font-family="Arial, sans-serif" font-size="20" letter-spacing="3">PLACEHOLDER SCREENSHOT</text>
+</svg>

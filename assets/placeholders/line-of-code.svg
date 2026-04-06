@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Line of Code placeholder screenshot</title>
+  <desc id="desc">Dark visual novel placeholder image with dialogue frame and code motifs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09101a" />
+      <stop offset="100%" stop-color="#040507" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)" />
+  <rect x="0" y="0" width="1280" height="720" fill="#79a8ff" opacity="0.05" />
+  <circle cx="1020" cy="160" r="190" fill="#79a8ff" opacity="0.12" />
+  <rect x="150" y="120" width="980" height="300" rx="28" fill="#0b121a" stroke="#79a8ff" stroke-opacity="0.18" />
+  <rect x="210" y="200" width="360" height="150" rx="22" fill="#111826" />
+  <path d="M735 178h250M735 228h210M735 278h248M735 328h166" stroke="#79a8ff" stroke-width="12" stroke-linecap="round" opacity="0.5" />
+  <path d="M250 500h780" stroke="#1f2a38" stroke-width="2" />
+  <rect x="160" y="520" width="960" height="130" rx="26" fill="#0a1018" stroke="#79a8ff" stroke-opacity="0.22" />
+  <text x="208" y="564" fill="#79a8ff" font-family="Arial, sans-serif" font-size="20" letter-spacing="2">DIALOGUE WINDOW</text>
+  <text x="208" y="612" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="32" font-weight="700">The code isn&apos;t broken. The world is.</text>
+  <rect x="72" y="72" width="360" height="108" rx="18" fill="#0a1018" fill-opacity="0.78" stroke="#79a8ff" stroke-opacity="0.22" />
+  <text x="108" y="126" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="44" font-weight="700">LINE OF CODE</text>
+  <text x="108" y="158" fill="#9ba8b8" font-family="Arial, sans-serif" font-size="20" letter-spacing="3">PLACEHOLDER SCREENSHOT</text>
+</svg>
